@@ -1,0 +1,51 @@
+:root {
+    /* dop */
+    --dv: red;
+    --none: transparent;
+    --blur-10: blur(10px);
+    --blur-20: blur(20px);
+    /* main */
+    --background-img: url(../background/snow-2.png);
+    --standart-background: rgb(30, 30, 32);
+    --hv: rgba(0, 0, 0, .7);
+    --gradient: linear-gradient(180deg, rgba(155, 42, 42, 0) 50%, rgba(30, 30, 32, 1) 100%);
+    --connection: rgba(50, 50, 52, .8);
+    --connection-hover: rgba(54, 54, 56, .8);
+    --search: rgba(50, 50, 52, .8);
+    --search-hover: rgba(54, 54, 56, .8);
+    --search-color: rgb(245, 245, 247);
+    --link: rgba(50, 50, 52, .8);
+    --link-hover: rgba(54, 54, 56, .8);
+    --link-name: rgb(245, 245, 247);
+    --page-2-block: rgba(40, 40, 42, .8);
+    --note: rgba(50, 50, 52, .8);
+    --note-name-color: rgb(245, 245, 247);
+    --note-textarea: rgb(245, 245, 247);
+    --time-date: rgba(50, 50, 52, .8);
+    --time-date-color: rgb(245, 245, 247);
+    --settings: rgba(50, 50, 52, .8);
+    --settings-hover: rgba(54, 54, 56, .8);
+}
+
+@font-face {
+    font-family: 'MT';
+    src: url('font/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Scroll off */
+* {
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/*
+
+*:hover {
+    outline: 1px solid var(--dv);
+}
