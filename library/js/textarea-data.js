@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     textarea.addEventListener("focus", () => {
-        // Запускаем интервал сохранения раз в 1 секунду
+        // Запускаем интервал сохранения раз в 5 секунду
         if (!saveInterval) {
-            saveInterval = setInterval(saveText, 1000);
+            saveInterval = setInterval(saveText, 5000);
         }
     });
 
