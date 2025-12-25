@@ -300,7 +300,7 @@ body {
 .notes textarea {
     height: 100%;
     width: 100%;
-    padding: 15px;
+    padding: 0 15px 15px;
     font-size: 15px;
     border-radius: 0 0 12px 12px;
     resize: none;
